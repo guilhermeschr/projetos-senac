@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class atividade2 {
+public class atividade3 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
 
@@ -21,21 +21,5 @@ public class atividade2 {
             System.out.println("Impar");
         }
 
-        // calculando o resto
-        // obriga a variavel resultado a ser inteira
-        // exemplo 9 / 2 => 4,5, parte inteira = 4
-        int resultado = numero / 2;
-
-        int resto = numero - (resultado * 2);
-
-        System.out.println("Resultado:" + resultado);
-
-        System.out.println("Resto:" + resto);
-
-        // comparacao e 2 igual
-        if (resto == 0) {
-            System.out.println("Par Calculado!");
-        } else {
-            System.out.println("Impar calculado!");
         }
     }
