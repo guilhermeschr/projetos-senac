@@ -8,15 +8,22 @@ public class atividade2 {
             // Com char usar o igual para comparar a igualdade
             Scanner teclado=new Scanner(System.in);
              char sexo;
+             String estadocivil;
+             int tempodecasada;
+             String nome;
+
+            System.out.println("Informe seu nome:");
+            nome = teclado.next();
 
             System.out.println("Informe seu sexo M ou F:");
-            sexo = teclado.next();
+            sexo = teclado.next().charAt(0);
 
-            if(sexo == 'F'){
-                System.out.println("Feminino");
-            } else {
-                System.out.println("Masculino");
+            System.out.println("Informe seu estado civil:");
+            estadocivil = teclado.next();
+
+            if ((sexo == 'F') && (estadocivil.equals("casada"))){
+                System.out.println("Informe o tempo de casada:");
+                tempodecasada = teclado.nextInt();
             }
-
         }
 }

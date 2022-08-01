@@ -19,11 +19,11 @@ Inicio
    leia(c)
    escreval("")
 
-   se (a>b)e(a>b)entao
-      D:= a
+   se (a>b)e(a>c)entao
+      d:= a
    fimse
-   se (b>a)e(a>c)entao
-      D:= b
+   se (b>a)e(b>c)entao
+      d:= b
    fimse
    se (c>a)e(c>b)entao
       d:=c

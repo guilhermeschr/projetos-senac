@@ -8,12 +8,17 @@ public class atividade1 {
         int a,b,c = 0;
         int soma = 0;
 
+        //Faça um algoritmo que leia os valores A, B, C e //
+        // imprima na tela se a soma de A + B é menor que C.
+
         System.out.println("Informe valor a:");
         a = teclado.nextInt();
         System.out.println("Informe valor b:");
         b = teclado.nextInt();
         System.out.println("Informe valor c:");
-        b = teclado.nextInt();
+        c = teclado.nextInt();
+
+        soma = a+b;
 
         if(soma < c){
             System.out.println("A soma de A + B é menor que C.");
