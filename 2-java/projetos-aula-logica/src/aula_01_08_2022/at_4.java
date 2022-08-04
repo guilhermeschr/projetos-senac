@@ -1,20 +1,15 @@
-package aula_28_07_2022;
+package aula_01_08_2022;
 
 import java.util.Scanner;
 
-public class atividade1um {
+public class at_4 {
     public static void main(String[] args) {
-        // Faca um algoritmo que leia o nome e as tres notas
-        // de um aluno e ao final, escreva o seu nome, sua media
-        // e se ele foi aprovado. Media de aprovacao igual a 8.
+        //Faça um algoritmo para verificar se um aluno esta APROVADO
+        // ou REPROVADO, lendo 3 notas e calculando sua media que deve ser maior ou igual a 7.
 
         Scanner teclado = new Scanner(System.in);
-
         Double a,b,c,media;
-        String nome;
 
-        System.out.println("Informe o nome do aluno:");
-        nome = teclado.next();
         System.out.println("Informe as três notas:");
         a = teclado.nextDouble();
         b = teclado.nextDouble();
@@ -22,14 +17,12 @@ public class atividade1um {
 
         media=(a+b+c)/3;
 
-        System.out.println("Nome do aluno: "+ nome );
         System.out.println("Média do aluno: "+ media);
 
-        if (media>=8){
+        if (media>=7){
             System.out.println("Aluno aprovado!");
         }else{
             System.out.println("Aluno reprovado!");
         }
-
     }
 }
