@@ -21,5 +21,7 @@ public class at_16 {
         c= teclado.nextInt();
         System.out.println("Informe um valor para C:");
 
+
+
     }
 }
