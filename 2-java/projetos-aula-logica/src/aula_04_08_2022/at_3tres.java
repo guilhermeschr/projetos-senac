@@ -10,6 +10,7 @@ public class at_3tres {
 
         int a,b;
         int d;
+        int soma=0;
 
         Scanner teclado = new Scanner(System.in);
 
@@ -19,5 +20,11 @@ public class at_3tres {
         b= teclado.nextInt();
 
 
+        for (int i =1;i<=b;i++){
+            soma=soma+a;
+            System.out.println(soma);
+        }
+
+        System.out.println("O valor das somas repetidas é: " + soma);
     }
 }
