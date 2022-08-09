@@ -18,7 +18,6 @@ public class at_1um {
         for (int i =0; i<=n ;i++){
             System.out.println(i);
         }
-        System.out.println("FIM!");
 
     }
 }
