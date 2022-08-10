@@ -8,23 +8,30 @@ public class at_9_9 {
         //Leia o nome e a idade de 10 pessoas e exiba o nome da pessoa mais nova.
 
         Scanner teclado = new Scanner(System.in);
-        int idade = 0;
-        String nome =" ";
-        String maisnova = " ";
+        int idade;
+        int nova = 0;
+        String nome;
+        String maisnova = null;
 
-        for (int i = 0;i<10;i++){
+        for (int i = 0; i < 3; i++) {
             System.out.println("Informe nome:");
-            nome = teclado.next();
+            nome = teclado.nextLine();
 
-            System.out.println("Informe idade:");
-            idade= teclado.nextInt();
+            System.out.println("Informe idade:" + nome);
+            idade = teclado.nextInt();
+            teclado.nextLine();
 
-
-            if (idade<idade){
-                nome=maisnova;
+            if (nova == 0) {
+                nova = idade;
             }
 
-            System.out.println(maisnova);
+            if (idade < nova) {
+                nova = idade;
+                maisnova = nome;
+            }
+
         }
+        System.out.println(maisnova);
+        System.out.println(nova);
     }
 }

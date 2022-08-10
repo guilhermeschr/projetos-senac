@@ -10,17 +10,15 @@ public class atividade_7_sete {
 
         Scanner teclado = new Scanner(System.in);
         int numero =0;
+        int n=1;
 
         System.out.println("Informe um numero:");
         numero = teclado.nextInt();
-        int numero1 = 0;
-        int n = numero;
-        int nu=numero;
         
-        for (int i = n;n>=0;n--){
-            numero=numero*i;
+        for (int i = numero;i>=1;i--){
+            n=n*i;
         }
 
-        System.out.println(numero1);
+        System.out.println(n);
     }
 }
