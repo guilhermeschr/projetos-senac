@@ -16,6 +16,8 @@ public class atividade_5_cinco {
         System.out.println(populacaopais1);
         System.out.println("População inicial pais 2:");
         System.out.println(populaçaopais2);
+        System.out.println(" ");
+        System.out.println(" ");
 
 
         for (int i =0;i<1000;i++){
@@ -30,6 +32,7 @@ public class atividade_5_cinco {
 
         System.out.println("Populaçao 1 pais:");
         System.out.println(populacaopais1);
+        System.out.println(" ");
         System.out.println("Populaçao 2 pais:");
         System.out.println(populaçaopais2);
         System.out.println(" ");
