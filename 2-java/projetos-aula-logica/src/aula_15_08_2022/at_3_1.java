@@ -20,11 +20,12 @@ public class at_3_1 {
             if (salario[i]>salariomaior){
                 salariomaior=salario[i];
             }
-
         }
+
         System.out.println("O maior salario é:");
         System.out.println(salariomaior);
 
-
     }
+
 }
+
