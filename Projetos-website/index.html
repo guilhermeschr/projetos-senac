@@ -7,26 +7,128 @@
     <title>Website</title>
 </head>
 
-<body>
-    <head>
-        <h1> Minha pagina - cabeçalho - head</h1>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
-        <h2> Minha pagina - cabeçalho - head</h2>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
-        <h6> Minha pagina - cabeçalho - head</h6>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
-        <!-- <h1> Minha pagina - cabeçalho - head</h1>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     -->
-        <h3> Minha pagina - cabeçalho - head</h3>
-        <hr>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
-    </head>
-    <main>
-        <img src="https://images.pexels.com/photos/13038616/pexels-photo-13038616.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load" alt="">
-        <hr>
-        <h1>Minha pagina - principal - main</h1>
-        
+<style>
+    /* Pega a imagem dentro da classe  */
     
-    <hr>
+    .image-marina img {
+        /* largura */
+        width: 400px;
+        height: 300px;
+    }
+</style>
+
+<body>
+    <header>
+        <h1>Titulos e Subtitulos</h1>
+        <h1>Minha pagina - header - 1</h1>
+        <h2>Minha pagina - header - 1</h2>
+        <h3>Minha pagina - header - 1</h3>
+        <h4>Minha pagina - header - 1</h4>
+        <h5>Minha pagina - header - 1</h5>
+        <h6>Minha pagina - header - 1</h6>
+
+        <h1>Paragrafos</h1>
+        <p>
+            meu paragrafo meu paragrafo meu paragrafo meu paragrafo
+        </p>
+
+        <!-- Comentario = CTRL + ; -->
+        <!-- Duplicar linha-SHIFT + ALT + SETA PARA BAIXO -->
+        <h1>Linha</h1>
+        <hr>
+        <!-- Quebra de linha -->
+        <br>
+        <!-- Adiciona uma imagem -->
+        <!-- caminho da imagem -->
+        <!-- Imagens gratuitas:https://www.pexels.com/pt-br/ -->
+        <h1>Imagem</h1>
+        <div class="image-marina">
+            <img src="images/marina.jpg" alt="Marina">
+        </div>
+
+        <h1>Link das imagens</h1>
+        <!-- abre na mesma pagina -->
+        <a href="https://www.pexels.com/pt-br/">Pexels- abre na mesma pagina</a>
+
+        <!-- abre em outra pagina -->
+        <a href="https://www.pexels.com/pt-br/" target="_blank">Pexels 2 - Nova Pagina</a>
+
+        <h1>Site com as tags HTML</h1>
+        <a href="https://www.w3schools.com/">HTML,CSS,JAVASCRIPT</a>
+    </header>
+    <main>
+        <h1>Minha pagina - main</h1>
+        <section>
+            <h2>Section 1</h2>
+            <p>conteudo</p>
+            <div> conteudo 1</div>
+            <div> conteudo 2</div>
+            <div> conteudo 3</div>
+            <div> conteudo 4</div>
+            <div> conteudo 5</div>
+            <div> conteudo 6</div>
+            <!-- span - serve para adicionar css -->
+            <span style="color:red;font-size:25px;">Meu texto span</span>
+
+            <br>
+            <!-- tag I - deixa em italico-->
+            <i>minha tag i</i>
+
+            <br>
+            <!-- tag strong - deixa em negrito -->
+            <strong>Minha tag Strong</strong>
+            <br>
+            <!-- tag b deixa em negrito -->
+            <b>Minha tag B</b>
+
+            <h1>Listas HTML</h1>
+            <h1>Lista nao ordenada</h1>
+            <ul>
+                <li>Lista 1</li>
+                <li>Lista 1</li>
+                <li>Lista 1</li>
+                <li>Lista 1</li>
+                <li>Lista 1</li>
+                <li>Lista 1</li>
+            </ul>
+            <h1>Lista ordenada</h1>
+            <ol>
+                <li>Lista 1</li>
+                <li>Lista 1</li>
+                <li>Lista 1</li>
+                <li>Lista 1</li>
+                <li>Lista 1</li>
+                <li>Lista 1</li>
+            </ol>
+
+            <!-- tag NAV usada para menus -->
+            <nav>
+                <ul>
+                    <li><a href="#">Página inicial</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+            <h1>Tag Select - option</h1>
+            <select>
+                <option><a href="#">Sobre</a></option>
+                <option>Opcao 02</option>
+                <option>Opcao 03</option>
+            </select>
+        </section>
+        <section>
+            <h2>Section 2</h2>
+        </section>
+        <h1>Exemplo de Atributo</h1>
+        <hr size="8" width="80%">
+
+        <h1>Exemplo lorem ipsum</h1>
+        <div>
+            <!-- Digitar lorem e a quantidade de texto a gerar, exemplo lorem10  e dar um tab -->
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, saepe.
+        </div>
     </main>
     <footer>
-        <h1>Minha pagina - rodapé - footer</h1>
+        <h1>Minha pagina - footer - 1</h1>
     </footer>
 </body>
-
-</html>
