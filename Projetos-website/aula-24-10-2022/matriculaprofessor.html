@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matricula</title>
+
+
+    <!--3 Forma de usar CSS -->
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<style>
+.cadastro2{
+    color: black ;
+     font-size:80px;
+     border: 3px dashed blue;
+    
+     border-radius: 10em  ;
+     text-align: center;
+}
+</style>
+<body>
+<div id="testes">
+
+    <!--1 Forma de usar CSS -->
+    <h1 style="color: red ; font-size:80px;border: 1px solid blue;border-radius: 10em  ; text-align: center;">Cadastro de Testes</h1>
+
+
+    <!--2 Forma de usar CSS -->
+    <h1 class="cadastro2">Cadastro de Testes 2</h1>
+
+
+
+    <!--3 Forma de usar CSS -->
+    <h1 class="cadastro3">
+        Cadastro de Testes 3
+    </h1>
+
+    <!-- <h1 class="cadastro3"> -->
+        <h1 id="cadastro4">
+        Cadastro de Testes 4
+    </h1>
+
+    
+</div>
+
+
+
+<div id="testes">
+    <fieldset>
+        <legend>Cadastro de Matrícula</legend>
+        <form action="sucesso.html">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome">
+            <label for="nome">Data Nascimento:</label>
+            <input type="text" name="datanascimento">
+            <label for="nome">E-mail:</label>
+            <input type="text" name="email">
+            <label for="nome">Telefone:</label>
+            <input type="text" name="telefone">
+            <label for="nome">Série:</label>
+            <select name="serie" id="serie">
+                <option value="1">1º Ano</option>
+                <option value="2">2º Ano</option>
+                <option value="3">3º Ano</option>
+                <option value="4">4º Ano</option>
+            </select>
+            <input type="text" name="serie">
+            <label for="nome">Turno Preferencial:</label>
+            <label for="turnomanha">Manhã:</label>
+            <input type="radio" name="turnomanha" value="1">
+            <label for="turnotarde">Tarde:</label>
+            <input type="radio" name="turnotarde" value="2">
+            <label for="turnonoite">Noite:</label>
+            <input type="radio" name="turnonoite" value="3">
+
+            <label for="nome">Atividades Extra curriculares:</label>
+            <label for="nome">Teatro:</label>
+            <input type="checkbox" name="teatro">
+            <label for="nome">Música:</label>
+            <input type="checkbox" name="musica">
+            <label for="nome">Bale:</label>
+            <input type="checkbox" name="bale">
+            <label for="nome">Pintura:</label>
+            <input type="checkbox" name="pintura">
+            <label for="nome">Judo:</label>
+            <input type="checkbox" name="judo">
+            <label for="nome">Futebol:</label>
+            <input type="checkbox" name="futebol">
+            <br>
+
+            <div class="botao-formulario">
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Confirmar">
+            </div>
+            
+        </form>
+    </fieldset>
+</div>
+
+    <fieldset class="lista-testes">
+
+        <legend>Lista de testes</legend>
+
+        <a href="">Meu link</a>
+        <a href="">Meu link</a>
+        <a href="">Meu link</a>
+
+        <h1>Exemplo de listas:</h1>
+
+        <ol>
+            <li>oi</li>
+            <li>tchau</li>
+            <li>ola</li>
+        </ol>
+        
+    </fieldset>
+
+
+</body>
+
+</html>

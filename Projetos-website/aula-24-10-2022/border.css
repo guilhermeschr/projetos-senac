@@ -1,0 +1,30 @@
+body{
+    background-color: yellowgreen;
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    top: 0;
+}
+
+
+p,
+h2,
+h3,
+h4,
+h5,
+h6,
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+.i {
+    border: 10px solid salmon;
+    font-size:50px ;
+    color: aqua;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}

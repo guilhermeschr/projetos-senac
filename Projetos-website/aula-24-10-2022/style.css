@@ -1,0 +1,146 @@
+.cadastro3{
+    color: rgb(160, 32, 210) ;
+     font-size:80px;
+     border: 5px dashed rgb(48, 48, 100);
+    
+     border-radius: 8em  ;
+     text-align: center;
+}
+#cadastro4{
+    color: rgb(104, 145, 108) ;
+     font-size:80px;
+     border: 5px dashed rgb(48, 48, 100);
+    
+     border-radius: 8em  ;
+     text-align: center;
+}
+
+input{
+    background-color: rgb(161, 155, 155);
+}
+
+input[type="text"]{
+    background-color: rgb(158, 210, 170);
+}
+
+input[type="text"] :hover{
+    background-color: rgb(160, 191, 23);
+}
+
+h1:hover{
+    background-color: rgb(195, 201, 20);
+    color: aquamarine;
+    transition: all .5s ease-in-out;
+}
+
+#testes{
+    display: none;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+form input[type="text"]{
+    margin-top: 10px;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+/* form input[type="reset"]{
+    margin-top: 10px;
+    margin-bottom: 10px;
+} */
+
+/* Formatando os botoes do formulario */
+
+.botao-formulario{
+    
+    /* border: 1px solid red; */
+    height: 350px ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+
+}
+
+.botao-formulario{
+    max-height: 50px;
+}
+
+/* Formatando botao Limpar */
+
+.botao-formulario input[type="reset"]{
+    max-height: 100px;
+    background-color: rgb(227, 117, 15);
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10em;
+}
+
+/* Formatando botao Confirmar */
+
+.botao-formulario input[type="submit"]{
+    max-height: 100px;
+    background-color: rgb(51, 193, 16);
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10em;
+}
+
+/* Evento do mouse */
+
+.botao-formulario input:hover {
+    cursor: pointer;
+    color: black;
+    transition: all .4s ease-in-out;
+}
+
+/* hover do botao Limpar */
+
+.botao-formulario input[type="submit"]:hover {
+    
+    background-color: rgb(178, 205, 166);
+    color: rgb(255, 255, 255);
+    
+
+}
+
+/* hover do botao Confirmar */
+.botao-formulario input[type="reset"]:hover{
+   
+    background-color: rgb(255, 186, 118);
+    color: white;
+    
+}
+
+
+
+.lista-testes a:link {
+    color: rgb(230, 38, 38);
+}
+
+.lista-testes a:visited {
+    color: red;
+}
+
+.lista-testes a:houver{
+    color: blue;
+}
+
+.lista-testes ol{
+
+    font-size: 50px;
+
+    color: rgb(255, 0, 0);
+}
+
