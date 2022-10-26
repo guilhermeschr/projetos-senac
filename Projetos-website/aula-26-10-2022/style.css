@@ -1,0 +1,48 @@
+.explicaçao-margin{
+    /* border: 5px solid; */
+    margin-top: 100px;
+    margin-left: 70px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    }
+
+.explicaçao-padding{
+    
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    
+
+    padding-top:20px ;
+    padding-left:70px ;
+    padding-right:70px ;
+    padding-bottom: 10px;
+
+}
+
+.content{
+    border: 1px solid blue;
+    color: chocolate;
+}
+
+.citacao{
+    border: 3px solid rebeccapurple;
+    color: rgb(169, 57, 169);
+    font-weight: 100;
+    margin-top: 10px;
+    
+}
+
+.naoaparecer{
+    display: none ;
+}
+
+.back-grounds{
+    min-height: 18000px;
+    background-image: url(../images/pexels-kássia-melo-13038616.jpg);
+    background-size: 800px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    
+}
+
