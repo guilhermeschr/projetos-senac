@@ -1,24 +1,128 @@
 body {
     display: flex;
-    height: 95vh;
+    height: 99vh;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     top: 0;
+    font-family: Oswald, sans-serif;
 }
 
 .lado-esquerdo {
-    color: tomato;
-    width: 20vw;
-    background-color: gray;
+    color: #ffffff;
+    width: 25vw;
+    background-color: #2d3e4f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 70px;
+    text-align: center;
+    position: fixed;
+    height: 100vh;
 
+    
 }
+
 
 #titulo{
-    font-size: 20PX;
+    /* margin-top: 00px; */
+    margin-bottom: 70px;
+    color: #cf404d;
+    font-size: 2em;
+    line-height: 25px;
+    font-weight: 400;
+    letter-spacing: 1px;
 }
 
-.lado-direito {
-    width: 80vw;
-    background-color: blue;
+
+.palavras{
+    list-style: none;
+    text-transform: capitalize;
+    color: white;
+    font-size: 16px;
+    line-height: 40px;
+    cursor: pointer;
+    padding-top: 250px;
+}
+
+.palavras div:hover{
+    color: #cf404d;
+}
+
+
+#contact{
+    margin-bottom: 250px;
+}
+
+
+#redes-sociais{
+    
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+    gap: 2px
+
+    
+}
+
+
+.lado-direito{
+    min-height: 100em ;
+    height: 100%;
+    width: 100%;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(163, 163, 163, 0.5))),  url(../../images/5537c24e0219280a0ff0b565_2e9b0cb2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    /* text-align: center; */
+    padding-top: 250px;
+    /* padding-left: 900px; */
+    
+    text-align: center;
+
+    margin-left: 300px;
+
+    
+}
+
+.lado-direito span{
+    font-family: 'Droid Sans', sans-serif;
+    color: white;
+    font-size: 19px;
+    line-height: 30px;
+    text-align: right;
+    
+    
+}
+
+.lado-direito h1{
+    margin-top: 200px;
+    
+    color: #fff;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    
+    
+}
+
+.botao1{
+    text-align: center;
+    
+
+
+}
+
+.botao2{
+    color: #cf404d;
+    border-color: #cf404d;
+}
+
+.botoes span{
+    text-align: center;
+    border: 2px solid  #cf404d;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px;
+    
 }
