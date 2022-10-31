@@ -113,12 +113,29 @@ body {
 
 }
 
-.botao2{
-    color: #cf404d;
-    border-color: #cf404d;
+.botoes-home button{
+    /* color: #cf404d;
+
+    text-align: center;
+    border: 2px solid  #cf404d;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px; */
+
+}
+.button-1{
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    border: 2px solid  white;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px;
 }
 
-.botoes span{
+.button-2{
+    background-color: #cf404d;
+    color:white ;
     text-align: center;
     border: 2px solid  #cf404d;
     border-radius: 5px;

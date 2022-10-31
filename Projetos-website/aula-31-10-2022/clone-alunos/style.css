@@ -33,6 +33,8 @@ body{
     text-transform: uppercase;
     color: aliceblue;
     height:100vh ;
+
+    position: fixed;
 }
 
 
@@ -59,12 +61,14 @@ body{
 
 #titulo a{
     color: #cf404d;
+    font-size: 30px;
 }
 
 .lado-esquerdo .menu-esquerdo-superior div a:hover{
     color:#cf404d ;
     cursor: pointer;
 }
+
 
 
 #home {
@@ -74,3 +78,73 @@ body{
     background-repeat: repeat, no-repeat;
     min-height: 100vh;
 }
+
+#home .home-content{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.home-titulo{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.home-sub-titulo{
+    font-size: 16px;
+}
+
+
+.botoes-home button{
+    padding: 15px;
+    border-radius: 5px;
+    transition: background-color 300ms ease, border 300ms ease, color 300ms ease;
+}
+
+.botoes-home:hover{
+    background: transparent;
+    cursor: pointer;
+    
+}
+.button-1{
+    color: white;
+    border-color: white;
+    background-color: transparent;
+
+}
+
+.button-1:hover{
+    
+    background-color: #2d3e4f;
+    border:  2px solid #2d3e4f;
+    
+}
+
+.button-2{
+    color: white;
+    background-color: #cf404d;
+    border: 2px solid #cf404d;
+}
+
+.button-2:hover{
+    background-color: transparent;
+    border-radius: 5px;
+    border:  2px solid #cf404d;
+    
+}
+
+
+.paginas {
+    display: flex;
+    flex-direction: column;
+}
+
+.paginas>section{
+    background-color: tomato;
+    min-height: 100vh;
+}
+
