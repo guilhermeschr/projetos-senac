@@ -81,6 +81,12 @@ body{
 ---------------------------
 */
 
+/* coloca o lado direito no locaL CERTO */
+.lado-direito{
+    width:90vw ;
+    margin-left: 330px;
+}
+
 #home {
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/background.jpg);
     background-position: 0% 0%, 50% 50%;
@@ -154,7 +160,7 @@ body{
 }
 
 .paginas>section{
-    background-color: tomato;
+    /* background-color: tomato; */
     min-height: 100vh;
 }
 
@@ -174,7 +180,7 @@ body{
 
 #about {
 
-    background-color: aqua;
+    /* background-color: aqua; */
 
     color: black;
 
@@ -190,7 +196,7 @@ body{
 
 #gallery {
 
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 
     float: right;
 
@@ -210,7 +216,7 @@ body{
 
 #contact {
 
-    background-color: #cf404d;
+    /* background-color: #cf404d; */
 
     float: right;
 
@@ -236,3 +242,149 @@ TESTES CSS FINAL
 
 */
 
+
+
+
+.about-titulo {
+    margin-top: 2%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.about-sub-titulo {
+    text-align: center;
+    font-size: 16px;
+    color: gray;
+}
+
+.about-list-itens {
+    display: flex;
+    font-size: 12px;
+}
+
+.about-item {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.about-item img {
+    width: 100px;
+    height: 80px;
+    background-color: #cf404d;
+}
+
+.about-item a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #cf404d;
+    margin-top: 10px;
+}
+
+.about-item a:hover {
+    color: green;
+}
+
+.cal-to-action {
+    background-color: #cf404d;
+    padding: 40px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/*
+--------------------------
+SECAO GALLERY
+--------------------------
+*/
+
+.gallery-titulo {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.gallery-sub-titulo {
+    text-align: center;
+    font-size: 16px;
+    color: gray;
+    margin-top: 10px;
+}
+
+.lista-imagem {
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+}
+
+.lista-imagem-1 img {
+    max-width: 200px;
+    max-height: 200px;
+    padding: 10px;
+}
+
+.lista-imagem-2 img {
+    max-width: 200px;
+    max-height: 200px;
+    padding: 10px;
+}
+
+
+/*
+--------------------------
+SECAO CONTACT
+--------------------------
+*/
+
+.contact-titulo {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.contact-sub-titulo {
+    text-align: center;
+    font-size: 16px;
+    color: gray;
+    margin-top: 10px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact form .campos-form {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+form textarea {
+    width: 98%;
+}
+
+form input[type=submit] {
+    width: 100%;
+    background-color: #cf404d;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 300ms ease, border 300ms ease, color 300ms ease;
+}
+
+form input[type=submit]:hover {
+    background: transparent;
+    background-color: black;
+    cursor: pointer;
+}
