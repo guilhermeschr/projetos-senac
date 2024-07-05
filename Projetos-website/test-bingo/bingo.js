@@ -118,7 +118,7 @@ function crialista(){
         lista_bingo.appendChild(ulG);
         lista_bingo.appendChild(ulO);
     }else{
-        console.log('ACABOU!!')
+        alert("Foram todas as pedras!!")
     }
 }
 
