@@ -23,7 +23,7 @@ function crialista(){
         const ulG = document.createElement('ul');
         const ulO = document.createElement('ul');
 
-        countT.innerHTML = count;
+        countT.innerHTML ='Quantidade de clicks: '+ count;
 
         let li = document.createElement('h1');
         li.textContent = 'B';
