@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="bingo.js"></script>
+    <style>
+        body{
+            margin: 0;
+            text-align: center;
+        }
+        button{
+            margin-top: 50px;
+            width: 120px;
+            height: 60px;
+        }
+        #Lista-bingo-todos{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #Lista-bingo{
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            width: 60%;
+        }
+
+        #Lista-bingo-todos>ul{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            align-content: center;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #Lista-bingo>ul{
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #Lista-bingo-todos>ul>li{
+            list-style-type: none;
+            font-size: xx-large;
+        }
+        
+        #Lista-bingo>ul>li{
+            list-style-type: none;
+            font-size: x-large;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <button onclick=recomecar()>Recomeçar</button>
+    <button onclick=crialista()>Click para rodar</button>
+    <h1 id="Numero"></h1>
+    <div id="Lista-bingo-todos" class="Lista-bingo" style="display: flex;"></div>
+    <div id="Lista-bingo" class="Lista-bingo" style="display: flex;"></div>
+    
+
+</body>
+</html>
