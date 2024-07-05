@@ -21,10 +21,31 @@ function crialista(){
         const ulG = document.createElement('ul');
         const ulO = document.createElement('ul');
 
-        const li = document.createElement('li');
+        let li = document.createElement('li');
         li.textContent = 'B';
         ulB.appendChild(li);
         lista_bingo_todos.appendChild(ulB);
+
+        li = document.createElement('li');
+        li.textContent = 'I';
+        ulI.appendChild(li);
+        lista_bingo_todos.appendChild(ulI);
+
+        li = document.createElement('li');
+        li.textContent = 'N';
+        ulN.appendChild(li);
+        lista_bingo_todos.appendChild(ulN);
+
+        li = document.createElement('li');
+        li.textContent = 'G';
+        ulG.appendChild(li);
+        lista_bingo_todos.appendChild(ulG);
+
+        li = document.createElement('li');
+        li.textContent = 'O';
+        ulO.appendChild(li);
+        lista_bingo_todos.appendChild(ulO);
+
 
         if(numeroQueCaiu>=1 && numeroQueCaiu<=15){   
             h1Numero.innerHTML = 'Pedra: B- ' + numeroQueCaiu;
