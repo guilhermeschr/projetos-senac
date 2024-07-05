@@ -137,5 +137,36 @@ function recomecar(){
     count = 0;
     const countT = document.getElementById('count');
     countT.innerHTML ='Quantidade de pedras que já caíram: '+ count;
+
+    const ulB = document.createElement('ul');
+    const ulI = document.createElement('ul');
+    const ulN = document.createElement('ul');
+    const ulG = document.createElement('ul');
+    const ulO = document.createElement('ul');
+
+    let li = document.createElement('h1');
+    li.textContent = 'B';
+    ulB.appendChild(li);
+    lista_bingo_todos.appendChild(ulB);
+
+    li = document.createElement('h1');
+    li.textContent = 'I';
+    ulI.appendChild(li);
+    lista_bingo_todos.appendChild(ulI);
+
+    li = document.createElement('h1');
+    li.textContent = 'N';
+    ulN.appendChild(li);
+    lista_bingo_todos.appendChild(ulN);
+
+    li = document.createElement('h1');
+    li.textContent = 'G';
+    ulG.appendChild(li);
+    lista_bingo_todos.appendChild(ulG);
+
+    li = document.createElement('h1');
+    li.textContent = 'O';
+    ulO.appendChild(li);
+    lista_bingo_todos.appendChild(ulO);
 }
 
