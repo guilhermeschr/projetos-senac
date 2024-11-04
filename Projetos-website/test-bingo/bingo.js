@@ -7,13 +7,13 @@ function crialista(){
 
         let numeroQueCaiu = arrayBingo[0][indiceAleatorio];
 
-        numeroQueCaiu.sort(function(a, b) {
-            return b - a;
-        });
+        
 
         arrayBingo[1].push(arrayBingo[0][indiceAleatorio])
         arrayBingo[0].splice(indiceAleatorio, 1)[0];
-
+        arrayBingo[0][0].sort(function(a, b) {
+            return b - a;
+        });
         const lista_bingo = document.getElementById('Lista-bingo');
         const lista_bingo_todos = document.getElementById('Lista-bingo-todos');
         lista_bingo.innerHTML = '';
