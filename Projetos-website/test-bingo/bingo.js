@@ -15,9 +15,9 @@ function crialista(){
         });
 
         const lista_bingo = document.getElementById('Lista-bingo');
-        const lista_bingo_todos = document.getElementById('Lista-bingo-todos');
+        // const lista_bingo_todos = document.getElementById('Lista-bingo-todos');
         lista_bingo.innerHTML = '';
-        lista_bingo_todos.innerHTML = '';
+        // lista_bingo_todos.innerHTML = '';
         const h1Numero = document.getElementById('Numero');
         const countT = document.getElementById('count');
         const ulTodos = document.createElement('ul');
@@ -32,27 +32,27 @@ function crialista(){
         let li = document.createElement('h1');
         li.textContent = 'B';
         ulB.appendChild(li);
-        lista_bingo_todos.appendChild(ulB);
+        // lista_bingo_todos.appendChild(ulB);
 
         li = document.createElement('h1');
         li.textContent = 'I';
         ulI.appendChild(li);
-        lista_bingo_todos.appendChild(ulI);
+        // lista_bingo_todos.appendChild(ulI);
 
         li = document.createElement('h1');
         li.textContent = 'N';
         ulN.appendChild(li);
-        lista_bingo_todos.appendChild(ulN);
+        // lista_bingo_todos.appendChild(ulN);
 
         li = document.createElement('h1');
         li.textContent = 'G';
         ulG.appendChild(li);
-        lista_bingo_todos.appendChild(ulG);
+        // lista_bingo_todos.appendChild(ulG);
 
         li = document.createElement('h1');
         li.textContent = 'O';
         ulO.appendChild(li);
-        lista_bingo_todos.appendChild(ulO);
+        // lista_bingo_todos.appendChild(ulO);
 
 
         if(numeroQueCaiu>=1 && numeroQueCaiu<=15){   
@@ -91,7 +91,7 @@ function crialista(){
                 li.textContent = '| O- ' + element;
             }
             ulTodos.appendChild(li);
-            lista_bingo_todos.appendChild(ulTodos);
+            // lista_bingo_todos.appendChild(ulTodos);
             
         });
 
@@ -132,10 +132,10 @@ function crialista(){
 
 function recomecar(){
     const lista_bingo = document.getElementById('Lista-bingo');
-    const lista_bingo_todos = document.getElementById('Lista-bingo-todos');
+    // const lista_bingo_todos = document.getElementById('Lista-bingo-todos');
     const h1Numero = document.getElementById('Numero');
     lista_bingo.innerHTML = '';
-    lista_bingo_todos.innerHTML = '';
+    // lista_bingo_todos.innerHTML = '';
     h1Numero.innerHTML = 'Pedra: ';
     arrayBingo = [['01', '02', '03', '04', '05', '06', '07', '08', '09', 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75], []];
     count = 0;
@@ -151,26 +151,26 @@ function recomecar(){
     let li = document.createElement('h1');
     li.textContent = 'B';
     ulB.appendChild(li);
-    lista_bingo_todos.appendChild(ulB);
+    // lista_bingo_todos.appendChild(ulB);
 
     li = document.createElement('h1');
     li.textContent = 'I';
     ulI.appendChild(li);
-    lista_bingo_todos.appendChild(ulI);
+    // lista_bingo_todos.appendChild(ulI);
 
     li = document.createElement('h1');
     li.textContent = 'N';
     ulN.appendChild(li);
-    lista_bingo_todos.appendChild(ulN);
+    // lista_bingo_todos.appendChild(ulN);
 
     li = document.createElement('h1');
     li.textContent = 'G';
     ulG.appendChild(li);
-    lista_bingo_todos.appendChild(ulG);
+    // lista_bingo_todos.appendChild(ulG);
 
     li = document.createElement('h1');
     li.textContent = 'O';
     ulO.appendChild(li);
-    lista_bingo_todos.appendChild(ulO);
+    // lista_bingo_todos.appendChild(ulO);
 }
 
